@@ -1,0 +1,10 @@
+### Flow:
+
+- login
+- select the item - GET args
+- select the contact(user) or search - GET args
+- make a bill
+- add in db
+
+
+- see all transaction

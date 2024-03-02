@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="static\setup\tailwindcss.js"></script>
+
+    <style>
+        /* Style for fixed navigation bar */
+        .fixed-bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #076119;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .bottom-nav-icon {
+            color: #fff;
+            font-size: 24px;
+        }
+    </style>
+    <title>Menu</title>
+</head>
+<body>
+
+    <!-- App Header -->
+    <section class="border p-2 text-md text-center font-bold">
+        Users List
+    </section>
+    
+    
+    
+    <!-- App Body -->
+    <section class="pt-4 pb-20">
+        <div class="grid grid-cols-6 gap-2 mx-2 p-1 rounded-md items-center">
+            <div class="text-center text-sm"></div>
+            <div class="col-span-3 text-left text-sm pl-2 font-bold"><i class="fa-solid fa-user mr-2"></i>Name</div>
+            <div class="col-span-2 text-center text-sm font-bold"><i class="fa-solid fa-tag mr-2"></i>Points</div>
+        </div>
+
+        <div class="grid grid-cols-7 gap-1 mx-2 p-1 rounded-md border-b-2 border-indigo-200 items-center my-2 py-2 border">
+            <div class="text-center text-sm">
+                <img src="static/setup/images/avatar/avatar-3.png" class="h-10 mx-auto rounded-full p-1 bg-red-600" alt="avatar icon">
+            </div>
+            <div class="col-span-4 text-left text-sm pl-2">
+                <div class="font-bold">Alex</div>
+                <div>+91 91112 44552</div>
+            </div>
+            <div class="col-span-2 text-center font-bold text-sm border p-1 rounded-md bg-yellow-300 ">12000</div>
+        </div>
+        <div class="grid grid-cols-7 gap-1 mx-2 p-1 rounded-md border-b-2 border-indigo-200 items-center my-2 py-2 border">
+            <div class="text-center text-sm">
+                <img src="static/setup/images/avatar/avatar-3.png" class="h-10 mx-auto rounded-full p-1 bg-red-600" alt="avatar icon">
+            </div>
+            <div class="col-span-4 text-left text-sm pl-2">
+                <div class="font-bold">Alex</div>
+                <div>+91 91112 44552</div>
+            </div>
+            <div class="col-span-2 text-center font-bold text-sm border p-1 rounded-md bg-yellow-300 ">12000</div>
+        </div>
+        <div class="grid grid-cols-7 gap-1 mx-2 p-1 rounded-md border-b-2 border-indigo-200 items-center my-2 py-2 border">
+            <div class="text-center text-sm">
+                <img src="static/setup/images/avatar/avatar-3.png" class="h-10 mx-auto rounded-full p-1 bg-red-600" alt="avatar icon">
+            </div>
+            <div class="col-span-4 text-left text-sm pl-2">
+                <div class="font-bold">Alex</div>
+                <div>+91 91112 44552</div>
+            </div>
+            <div class="col-span-2 text-center font-bold text-sm border p-1 rounded-md bg-yellow-300 ">12000</div>
+        </div>
+        <div class="grid grid-cols-7 gap-1 mx-2 p-1 rounded-md border-b-2 border-indigo-200 items-center my-2 py-2 border">
+            <div class="text-center text-sm">
+                <img src="static/setup/images/avatar/avatar-3.png" class="h-10 mx-auto rounded-full p-1 bg-red-600" alt="avatar icon">
+            </div>
+            <div class="col-span-4 text-left text-sm pl-2">
+                <div class="font-bold">Alex</div>
+                <div>+91 91112 44552</div>
+            </div>
+            <div class="col-span-2 text-center font-bold text-sm border p-1 rounded-md bg-yellow-300 ">12000</div>
+        </div>
+
+        
+        
+        <!-- <div class="grid grid-cols-3 gap-2">
+            <div>icon</div>
+            <div>Alex</div>
+            <div>120</div>
+        </div> -->
+    </section>
+
+
+
+
+
+    <!-- App Footer  -->
+    <!-- Fixed bottom navigation bar -->
+    <section>
+        <nav class="fixed-bottom-nav">
+            <a href="index.html" class="bottom-nav-icon text-sm "><i class="mr-1 fas fa-home"></i>Home</a>
+            <a href="menu.html" class="bottom-nav-icon text-sm "><i class="mr-1 fas fa-table-cells-large"></i>Menu</a>
+            <a href="contacts.html" class="bottom-nav-icon text-sm "><i class="mr-1 fas fa-user-group"></i>Users</a>
+            <a href="transactions.html" class="bottom-nav-icon text-sm "><i class="mr-1 fas fa-indian-rupee-sign"></i>Transactions</a>
+            <!-- <a href="dashboard.html" class="bottom-nav-icon text-sm "><i class="mr-1 fas fa-sign-in-alt"></i>Login</a> -->
+        </nav>
+    </section>
+</body>
+</html>
